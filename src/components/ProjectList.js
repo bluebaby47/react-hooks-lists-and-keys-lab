@@ -10,6 +10,7 @@ function ProjectList({ projects }) {
       {projects.map((project) => (
         <ProjectItem key={project.id} name={project.name} about={project.about} technologies={project.technologies} />
       ))}
+
       
     </div>
   );
